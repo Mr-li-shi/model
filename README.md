@@ -1,7 +1,7 @@
 # model
 模型
-功能：可视化模型的的输出。
-例如需要输出resnet模型的可视化图
+#功能：可视化模型的的输出。
+#例如需要输出resnet模型的可视化图
 from pythonview import view
 model = models.resnet18()
 model.load_state_dict(torch.load(path, map_location=device))
